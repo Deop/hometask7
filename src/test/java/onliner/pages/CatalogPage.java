@@ -18,8 +18,4 @@ public class CatalogPage extends BaseForm {
         btnCatalogMenu.click();
     }
 
-    public void asserCatalogNavigation(){
-
-    }
-
 }

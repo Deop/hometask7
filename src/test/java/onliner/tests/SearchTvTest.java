@@ -42,11 +42,6 @@ public class SearchTvTest extends BaseTest {
         logger.step(5);
         tvPage.waitForResultsToRefresh();
         tvPage.checkResultsToBeRelevant(manufacturer, maxPrice, minScreenSize, maxScreenSize);
-        try {
-            Thread.sleep(20000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
     }
 
